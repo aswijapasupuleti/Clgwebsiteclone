@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>College Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <img src="images/logo.png" alt="College Logo">
+    <div class="header-text">
+      <h1>Prasad V Potluri Siddhartha Institute Of Technology</h1>
+      <p>(Autonomous) <br>
+        Approved by AICTE and Affiliated by JNTU Kakinada<br>
+        Sponsored by: Siddhartha Academy of General and Technical Education<br>
+        Eamcet code: PPSV
+      </p>
+    </div>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Admissions</a>
+    <a href="#">Academics</a>
+    <a href="#">Autonomous</a>
+    <a href="#">Departments</a>
+    <a href="#">Facilities</a>
+    <a href="#">Student Corner</a>
+    <a href="#">Social Media</a>
+  </nav>
+
+  <div class="daily-updates">
+    <h2>Announcements</h2>
+    <!-- Add your daily updates content here -->
+    <p>III B.Tech II Semester Supplementary End Examinations (PVP20, PVP19, PVP14) scheduled on 05-12-2023 are postponed to 09-12-2023 Forenoon (Saturday)<br>SIH results announced.</p>
+  </div>
+
+  <div class="slideshow">
+    <div class="slides">
+      <div class="slide"><img src="images/slideshow1.jpg" alt="Slide 1" class="slide-image"></div>
+      <div class="slide"><img src="images/slideshow2.jpg" alt="Slide 2" class="slide-image"></div>
+      <div class="slide"><img src="images/slideshow3.jpg" alt="Slide 3" class="slide-image"></div>
+      <div class="slide"><img src="images/slideshow4.jpg" alt="Slide 4" class="slide-image"></div>
+      <div class="slide"><img src="images/slideshow5.jpg" alt="Slide 5" class="slide-image"></div>
+    </div>
+  </div>
+
+  <!-- ... (existing HTML) ... -->
+
+  <!-- <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const slidesContainer = document.querySelector('.slides');
+      let currentIndex = 0;
+
+      function showSlide(index) {
+        const newPosition = -index * 100 + '%';
+        slidesContainer.style.transform = 'translateX(' + newPosition + ')';
+      }
+
+      function nextSlide() {
+        currentIndex = (currentIndex + 1) % 5; // Adjust based on the number of images
+        showSlide(currentIndex);
+      }
+
+      // Change slide every 3 seconds (adjust the interval as needed)
+      setInterval(nextSlide, 3000);
+    });
+  </script> -->
+
+  <!-- ... (previous code) ... -->
+  <div class="features-bar">
+    Courses
+  </div>
+
+  <div class="features">
+    <div class="feature-card" onclick="toggleSelected(this)">
+      <img src="images/course1.png" alt="Feature 1 Icon">
+      <h3>B.Tech CSE</h3>
+      
+    </div>
+
+    <div class="feature-card" onclick="toggleSelected(this)">
+      <img src="images/course2.png" alt="Feature 2 Icon">
+      <h3>B.Tech IT</h3>
+      
+    </div>
+    <div class="feature-card" onclick="toggleSelected(this)">
+      <img src="images/course3.png" alt="Feature 2 Icon">
+      <h3>B.Tech ECE</h3>
+      
+    </div>
+    <div class="feature-card" onclick="toggleSelected(this)">
+      <img src="images/course4.png" alt="Feature 2 Icon">
+      <h3>B.Tech ME</h3>
+      
+    </div>
+    <div class="feature-card" onclick="toggleSelected(this)">
+      <img src="images/course5.png" alt="Feature 2 Icon">
+      <h3>B.Tech EEE</h3>
+     
+    </div>
+    <div class="feature-card" onclick="toggleSelected(this)">
+      <img src="images/course6.png" alt="Feature 2 Icon">
+      <h3>B.Tech CE</h3>
+      
+    </div>
+    <div class="feature-card" onclick="toggleSelected(this)">
+      <img src="images/course7.png" alt="Feature 2 Icon">
+      <h3>M.Tech </h3>
+      
+    </div>
+    <div class="feature-card" onclick="toggleSelected(this)">
+      <img src="images/course8.jpg" alt="Feature 2 Icon">
+      <h3>MBA</h3>
+      
+    </div>
+    
+
+    <!-- Add 7 more feature cards -->
+
+  </div>
+
+    
+
+    <!-- Add 7 more feature cards -->
+
+  </div>
+
+ 
+  
+  <div class="new-bar">
+    <!-- Content for the new bar -->
+    Student Support Services
+  </div>
+
+  <!-- <script>
+    function toggleSelected(card) {
+      card.classList.toggle('selected');
+    }
+  </script> -->
+
+
+<div class="image-container">
+  <div class="image-pair">
+    <div class="image-text-container">
+      <img src="images/example.jpg" alt="Image 1" class="side-image">
+    </div>
+    <div class="image-text-container">
+      <img src="images/example2.jpg" alt="Image 2" class="side-image">
+    </div>
+  </div>
+
+  <div class="image-pair">
+    <div class="image-text-container">
+      <img src="images/example3.jpg" alt="Image 3" class="side-image">
+    </div>
+    <div class="image-text-container">
+      <img src="images/example4.jpg" alt="Image 4" class="side-image">
+    </div>
+  </div>
+
+  <div class="image-pair">
+    <div class="image-text-container">
+      <img src="images/example5.jpg" alt="Image 5" class="side-image">
+    </div>
+    <div class="image-text-container">
+      <img src="images/example6.jpg" alt="Image 6" class="side-image">
+    </div>
+  </div>
+
+  <div class="image-pair">
+    <div class="image-text-container">
+      <img src="images/example7.jpg" alt="Image 7" class="side-image">
+    </div>
+    <div class="image-text-container">
+      <img src="images/example8.jpg" alt="Image 8" class="side-image">
+    </div>
+  </div>
+</div>
+
+<footer>
+  <!-- Contact Us information as a link -->
+  <a href="#contact">Contact Us</a>
+  <p>Prasad V Potluri Siddhartha Institute Of Technology,<br>
+    Kanuru, Vijayawada-520 007, Andhra Pradesh, India</p>
+  <p>Tel: 0866-2581699, 0866-2583037, 0866-2585681, 0866-2585682<br>
+    Fax: 0866-2581184</p>
+  <p>Email: principal@pvpsiddhartha.ac.in</p>
+
+  <!-- Social Media Links -->
+  <div>
+    <a href="https://www.facebook.com/people/Prasad-V-Potluri-Siddhartha-Institute-of-Technology/100083459136132/">Facebook</a>
+    <a href="https://twitter.com/PVPsiddhartha">Twitter</a>
+    <a href="https://www.instagram.com/pvpsiddhartha/">Instagram</a>
+    <a href="https://www.linkedin.com/company/pvpsit/">Linkedin</a>
+    <a href="https://www.youtube.com/channel/UCCuJT9OE_acjW0Jk7Jf9Kvw/featured">YouTube</a>
+    <!-- Add more social media links if needed -->
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
